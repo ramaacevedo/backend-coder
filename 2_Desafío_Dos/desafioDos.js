@@ -18,7 +18,7 @@ class Contenedor {
 
     getById(number) {
         this.getAll().then((data) => console.log(data.find(item => item.id == number)))
-        .catch((e) => console.log('No se enceontró el archivo'));
+        .catch((e) => console.log('No se encontró el archivo'));
     }
 
     save(product) {
