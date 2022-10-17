@@ -24,7 +24,7 @@ class Contenedor {
         const response = await fs.promises.readFile(this.file, 'utf-8')
         return JSON.parse(response)
     }
-}
+} 
 
 const producto1 = new Contenedor('./productos.txt');
 
