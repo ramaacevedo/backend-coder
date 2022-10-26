@@ -1,1 +1,0 @@
-[{"id":1,"title":"Samsung S22 Ultra","price":300000},{"id":2,"title":"Iphone 12","price":280000},{"id":3,"title":"Huawei Nova 9","price":110000}]
