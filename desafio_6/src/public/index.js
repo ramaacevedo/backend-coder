@@ -13,6 +13,7 @@ formulario.onsubmit = (e) => {
     const today = new Date();
     const fechayhora = today.toLocaleString();
     const obj = { nombre, info, fechayhora }
+
     socketClient.emit("mensaje", obj);
     inputInfo.value = "";
 };
